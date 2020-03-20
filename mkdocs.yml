@@ -1,0 +1,29 @@
+site_name: Targeting COVID-19 Portal
+site_author: David Leon (Dawei Leng)
+docs_dir: docs
+
+markdown_extensions:
+    - pymdownx.arithmatex
+
+extra_javascript:
+    - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+nav:
+    - Home: index.md
+    - COVID-19 Clinical Trials: drug_candidates.md
+    - COVID-19 Drug Discovery Data Analytics: Data_analytics.md
+    - COVID-19 Computational Studies: computational.md
+    - Coronavirus Disease Biology and Therapeutics: nCov_Targets.md
+    #- 2019-nCoV Assay Protocals: assay.md
+    #- COVID-19 World Community:
+    #  - COVID-19 Discoveries From XXX: sample.md
+    - Data Download:
+      - Coronavirus Data Mining: CoV_Experiment_Data.md
+      - COVID-19 Structure Modeling: nCov_Structures.md
+      - COVID-19 Research Articles: research_progress.md
+    - COVID-19 GHDDI News: ghddi_news.md
+    - COVID-19 Community Discussion: contact_us.md
+    - COVID-19 Useful Links: useful_links.md
+    - Github History: history.md
+
+theme: readthedocs    
